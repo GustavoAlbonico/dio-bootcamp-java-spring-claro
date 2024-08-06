@@ -1,10 +1,10 @@
 package marca;
 
-import funcionalidades.Internet;
-import funcionalidades.Mp3;
-import funcionalidades.Telefonia;
+import funcionalidades.NavegadorInternet;
+import funcionalidades.ReprodutorMusical;
+import funcionalidades.AparelhoTelefonico;
 
-public class Iphone implements Internet, Mp3, Telefonia {
+public class Iphone implements NavegadorInternet, ReprodutorMusical, AparelhoTelefonico {
     public void exibirPagina(String url) {
         System.out.println("Exibindo pagina " + url);
     }
